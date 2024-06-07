@@ -1,0 +1,54 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.msdc0000_door": {
+            "initial_state": "close",
+            "states": {
+                "open": {
+                    "animations": [
+                        "open"
+                    ],
+                    "transitions": [
+                        {
+                            "close": ""
+                        }
+                    ]
+                },
+                "close": {
+                    "animations": [
+                        "close"
+                    ],
+                    "transitions": [
+                        {
+                            "open": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.msdc0000_number": {
+            "states": {
+                "default": {
+                    "animations": [
+                        "default"
+                    ],
+                    "transitions": [
+                        {
+                            "A1": "variable.open=true;"
+                        }
+                    ]
+                }
+                // "A1": {
+                //     "animations": [
+                //         "A1"
+                //     ],
+                //     "transitions": [
+                //         {
+                //             "A2": "query."
+                //         }
+                //     ]
+                // }
+            }
+        }
+    }
+}
