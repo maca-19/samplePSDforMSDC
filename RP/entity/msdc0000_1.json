@@ -1,51 +1,53 @@
 {
-    "format_version": "1.20.00",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "msdc:msdc0000_1",
-            "materials": {
-                "default": "entity_alphatest"
-            },
-            "textures": {
-                "default": "textures/entity/msdc0000"
-            },
-            "geometry": {
-                "default": "geometry.msdc0000_1"
-            },
-            "animations": {
-                "default": "animation.msdc0000.default",
-                "open": "animation.msdc0000.open",
-                "close": "animation.msdc0000.close",
-                "A1": "animation.msdc000.A1",
-                "A2": "animation.msdc000.A2",
-                "A3": "animation.msdc000.A3",
-                "A4": "animation.msdc000.A4",
-                "A5": "animation.msdc000.A5",
-                "A6": "animation.msdc000.A6",
-                "A7": "animation.msdc000.A7",
-                "A8": "animation.msdc000.A8",
-                "A9": "animation.msdc000.A9",
-                "A10": "animation.msdc000.A10",
-                "B1": "animation.msdc000.B1",
-                "B2": "animation.msdc000.B2",
-                "B3": "animation.msdc000.B3",
-                "B4": "animation.msdc000.B4",
-                "door_controller": "controller.animation.msdc0000_door",
-                "number_controller": "controller.animation.msdc0000_number"
-            },
-            "scripts": {
-                "animate": [
-                    "door_controller",
-                    "number_controller"
-                ]
-            },
-            "render_controllers": [
-                "controller.render.default"
-            ],
-            "spawn_egg": {
-                "base_color": "#288483",
-                "overlay_color": "#2B7135"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "msdc:msdc0000_1",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/macapsd_sample_texture"
+			},
+			"geometry": {
+				"default": "geometry.msdc0000_1"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"animations": {
+				"default": "animation.msdc0000.default",
+				"open": "animation.msdc0000.open",
+				"close": "animation.msdc0000.close",
+				"A1": "animation.msdc0000.A1",
+				"A2": "animation.msdc0000.A2",
+				"A3": "animation.msdc0000.A3",
+				"A4": "animation.msdc0000.A4",
+				"A5": "animation.msdc0000.A5",
+				"A6": "animation.msdc0000.A6",
+				"A7": "animation.msdc0000.A7",
+				"A8": "animation.msdc0000.A8",
+				"A9": "animation.msdc0000.A9",
+				"A10": "animation.msdc0000.A10",
+				"B1": "animation.msdc0000.B1",
+				"B2": "animation.msdc0000.B2",
+				"B3": "animation.msdc0000.B3",
+				"B4": "animation.msdc0000.B4",
+				"door": "controller.animation.door",
+				"numberA": "controller.animation.numberA",
+				"numberB": "controller.animation.numberB"
+			},
+			"scripts": {
+				"animate": [
+					"door",
+					"numberA",
+					"numberB"
+				]
+			},
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
 }

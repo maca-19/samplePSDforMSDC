@@ -1,2 +1,6 @@
-pack.name = sample PSD for MSDC RP
-pack.description = ver1   made by @minecart19   You must have MSDC addon for control this PSD!
+pack.name=samplePSDforMSDC RP
+pack.description=v1   made by @maca19    §c*§e'MSDC' addon MUST BE INSTALLED§c to control this PSD addon!\n  *This addon supports §dminecraft version 1.20.0+
+
+entity.msdc:msdc0000_1.name=MSDC sample PSD
+
+item.spawn_egg.entity.msdc:msdc0000_1.name=Spawn MSDC sample PSD ##change the name appropriately

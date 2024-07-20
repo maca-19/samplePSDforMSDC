@@ -1,2 +1,3 @@
-pack.name = sample PSD for MSDC BP
-pack.description = ver1   made by @minecart19   You must have MSDC addon for control this PSD!
+pack.name=sample PSD for MSDC BP
+pack.description=v1   made by @maca19    §c*§e'MSDC' addon MUST BE INSTALLED§c to control this PSD addon!\n  *This addon supports §dminecraft version 1.20.0+
+ui.interact.setting=PSD SETTING

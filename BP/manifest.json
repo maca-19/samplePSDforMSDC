@@ -1,34 +1,52 @@
 {
-    "format_version": 2,
-    "header": {
-        "name": "pack.name",
-        "description": "pack.description",
-        "uuid": "6cf10394-a3fd-40ec-9352-63c836892c4e",
-        "version": [
-            1,
-            0,
-            0
-        ],
-        "min_engine_version": [
-            1,
-            19,
-            0
-        ]
-    },
-    "modules": [
-        {
-            "type": "data",
-            "uuid": "c149ac1b-122a-4cb2-baf2-8709dd9f76f8",
-            "version": [
-                1,
-                0,
-                0
-            ]
-        }
-    ],
-    "metadata": {
-        "authors": [
-            "minecart19"
-        ]
-    }
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"minecart19"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.29"
+			],
+			"dash": [
+				"0.11.6"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "a5e27150-a3f7-45e0-862b-3fbfa2a4ebce",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "899ae0fb-9fab-4f47-a767-ac9dd7f2245a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "31ebf15f-00c4-484b-be37-0c90b6b15223",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
 }

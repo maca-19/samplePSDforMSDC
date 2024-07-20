@@ -1,35 +1,52 @@
 {
-    "format_version": 2,
-    "header": {
-        "name": "pack.name",
-        "description": "pack.description",
-        "uuid": "b7f73522-3353-40a2-821c-59b42086f37a",
-        "version": [
-            1,
-            0,
-            0
-        ],
-        "lock_template_options": true,
-        "min_engine_version": [
-            1,
-            19,
-            50
-        ]
-    },
-    "modules": [
-        {
-            "type": "world_template",
-            "uuid": "1fcfd434-7cb1-4b0c-ab96-8ef274c1363b",
-            "version": [
-                1,
-                0,
-                0
-            ]
-        }
-    ],
-    "metadata": {
-        "authors": [
-            "minecart19"
-        ]
-    }
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"minecart19"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.29"
+			],
+			"dash": [
+				"0.11.6"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "31ebf15f-00c4-484b-be37-0c90b6b15223",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "2e72cfb3-9159-437d-9eef-c8cf4f82b65a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a5e27150-a3f7-45e0-862b-3fbfa2a4ebce",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
 }
